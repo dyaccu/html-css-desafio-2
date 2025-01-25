@@ -25,9 +25,9 @@ body{
 
 .titulo-destaque {
     color: rgb(43, 4, 88);
-    font-size: 20px;
+    font-size: 120%;
     font-family: "Red Hat Display", serif;
-    padding: 25px;
+    padding: 5%;
 
 }   
 
@@ -43,30 +43,30 @@ body{
 }
 
 .presentacion img {
-    width: 450px; 
+    width: 50%; 
     height: auto;
 }
 
 
 .presentacion__contenido{
-    width: 400px;
+    width: 50%;
     display: flex;
     flex-direction: column;
 
 }
 
 .presentacion__contenido__titulo{
-    font-size: 40px;
+    font-size: 250%;
     font-family: "Red Hat Display", serif;
-    padding: 25px;
+    padding: 5%;
 
 
 }
 
 .presentacion__contenido__texto{
-    font-size: 15px;
+    font-size: 95%;
     font-family: "Red Hat Display", serif;
-    padding: 25px;
+    padding: 5%;
 
 
 }
@@ -78,12 +78,12 @@ body{
     justify-content: center;
     box-sizing: border-box;
     background-color: rgb(28, 2, 82);
-    padding: 15px;
+    padding: 0.5%;
 }
 
 .presentacion__enlaces__link{
-    width: 280px;
-    padding: 30px 0;
+    width: 20%;
+    padding: 3% 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,10 +92,10 @@ body{
 
 .sobre__enlaces{
     background-color: rgb(244, 238, 238);
-    padding-bottom: 100px;
+    padding-bottom: 15%;
 }
 
 .boton {
-    width: 30px; 
-    height: 30px;
+    width: 15%; 
+    height: 15%;
 }

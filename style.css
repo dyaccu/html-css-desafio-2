@@ -99,3 +99,24 @@ body{
     width: 15%; 
     height: 15%;
 }
+
+@media screen and (max-width: 768px) {
+    .presentacion {
+        flex-direction: column; /* Cambia a diseño vertical en pantallas pequeñas */
+        text-align: center;
+    }
+
+    .presentacion img {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .presentacion__contenido {
+        width: 90%;
+    }
+
+    .presentacion__enlaces {
+        flex-wrap: wrap; /* Hace que los botones se acomoden en varias filas */
+        padding: 10px;
+    }
+}
